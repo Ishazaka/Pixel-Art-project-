@@ -8,3 +8,15 @@ html, body{
     height: 100%;
 }
 
+body{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.navbar, .container{
+    background-color: rgb(28, 28, 29);
+    width: 800px;
+    border-radius: 3px;

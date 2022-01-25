@@ -37,3 +37,17 @@ body{
     width: 100px;
     margin: 0 1em;
 }
+
+.container{
+    --size: 4;
+    height: 800px;
+    display: grid;
+    grid-template-columns: repeat(var(--size), 1fr);
+    grid-template-rows: repeat(var(--size), 1fr);
+    /* gap: 3px;
+    padding: 3px; */
+}
+.pixel{
+    background-color: white;
+    /* border-radius: 2px; */
+}

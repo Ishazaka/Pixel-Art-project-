@@ -33,3 +33,25 @@ function populate(size) {
 window.addEventListener("mousedown", function(){
     draw = true
 })
+
+
+window.addEventListener("mousedown", function(){
+    draw = true
+})
+window.addEventListener("mouseup", function(){
+    draw = false
+})
+
+function reset(){
+    container.innerHTML = ''
+    populate(size)
+}
+
+resetBtn.addEventListener('click', reset)
+
+sizeEl.addEventListener('keyup', function(){
+    size = sizeEl.value
+    reset()
+})
+
+populate(size)

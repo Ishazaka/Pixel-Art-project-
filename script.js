@@ -14,3 +14,5 @@ let draw = false
 function populate(size) {
   container.style.setProperty('--size', size)
   for (let i = 0; i < size * size; i++) {
+  const div = document.createElement('div')
+    div.classList.add('pixel')

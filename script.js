@@ -22,3 +22,6 @@ function populate(size) {
         div.style.backgroundColor = color.value
     })
     
+  div.addEventListener('mousedown', function(){
+        div.style.backgroundColor = color.value
+    })

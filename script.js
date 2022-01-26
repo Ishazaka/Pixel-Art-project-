@@ -25,3 +25,11 @@ function populate(size) {
   div.addEventListener('mousedown', function(){
         div.style.backgroundColor = color.value
     })
+
+        container.appendChild(div)
+  }
+}
+
+window.addEventListener("mousedown", function(){
+    draw = true
+})
